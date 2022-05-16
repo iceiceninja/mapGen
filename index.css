@@ -1,0 +1,13 @@
+.container{
+    display: flexbox;
+}
+.map{
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-template-rows: repeat(10,100px);
+}
+.square{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
